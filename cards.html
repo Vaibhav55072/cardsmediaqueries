@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(201, 198, 198);
+        }
+
+        .element1 {
+            height: 500px;
+            width: 300px;
+            background-color: aliceblue;
+            margin-top: 120px;
+            margin-left: 140px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        .car {
+            margin-top: 60px;
+            margin-left: 15px;
+            background: transparent;
+            border-bottom: 1px solid black;
+        }
+
+        .logo {
+            background: transparent;
+            height: 40px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+
+        }
+
+        .mercedes {
+            margin-top: 60px;
+            margin-left: 15px;
+            background: transparent;
+            border-bottom: 1px solid black;
+        }
+
+        .red-bull-racing {
+            margin-top: 60px;
+            margin-left: 15px;
+            background: transparent;
+            border-bottom: 1px solid black;
+        }
+
+        .info {
+            margin-top: 20px;
+            background: transparent;
+            border-top: 1px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+
+        @media screen and (max-width:400px) {
+            .element1{
+               margin-left: 45px;
+               margin-top: 20px;
+            }
+            @media screen  and (min-width:401) and (max-width:990){
+                .element1{
+                   margin-left: 90px;
+
+                }
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="element1">
+            <img src="ferrari.avif" height="80px" class="car">
+            <img src="ferrari-logo.avif" class="logo">
+            <p class="info">Red Bull were no strangers to F1 - as sponsors - prior to formally entering as a works team
+                in 2004. Nonetheless, the scale of their success over the following decade was staggering. After a first
+                podium in 2006, the team hit their stride in 2009 quadruple
+                champion. Now they are recapturing that glory with an equally exciting talent – one named Max
+                Verstappen…</p>
+        </div>
+        <div class="element1">
+            <img src="mercedes.avif" height="80px" class="mercedes">
+            <img src="mercedes-logo.avif" class="logo">
+            <p class="info">Red Bull were no strangers to F1 - as sponsors - prior to formally entering as a works team
+                in 2004. Nonetheless, the scale of their success over the following decade was staggering. After a first
+                podium in 2006, the team hit their stride in 2009 quadruple
+                champion. Now they are recapturing that glory with an equally exciting talent – one named Max
+                Verstappen…</p>
+        </div>
+        <div class="element1">
+            <img src="red-bull-racing.avif" height="80px" class="red-bull-racing">
+            <img src="red bull.avif" class="logo">
+            <p class="info">Red Bull were no strangers to F1 - as sponsors - prior to formally entering as a works team
+                in 2004. Nonetheless, the scale of their success over the following decade was staggering. After a first
+                podium in 2006, the team hit their stride in 2009 quadruple
+                champion. Now they are recapturing that glory with an equally exciting talent – one named Max
+                Verstappen…</p>
+        </div>
+    </div>
+</body>
+
+</html>
